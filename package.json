@@ -1,7 +1,7 @@
 {
     "homepage": "https://github.com/Lubaba-Bedewi/Netflix-project",
     "name": "netflix-project",
-    "private": false,
+    "private": true,
     "version": "0.0.0",
     "type": "module",
     "scripts": {
