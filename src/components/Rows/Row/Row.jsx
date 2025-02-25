@@ -13,7 +13,7 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const request = await axios.get(`${fetchUrl}`);
+        const request = await axios.get(fetchUrl);
 
         setMovie(request.data.results);
       } catch (error) {
